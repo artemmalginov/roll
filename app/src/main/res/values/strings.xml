@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DiceRoller</string>
+    <string name="roll_label">ЖМЯК</string>
+    <string name="Dont_touch">СЮДА НЕ НАЖИМАТЬ</string>
+    <string name="text_salam">Сколько тебе лет?</string>
+    <string name="edit">Отвечай</string>
+</resources>

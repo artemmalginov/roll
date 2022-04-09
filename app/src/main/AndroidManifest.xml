@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DiceRoller">
         <activity
+            android:name=".Notsecond3"
+            android:exported="false" />
+        <activity
             android:name=".Second222"
             android:exported="false" />
         <activity

@@ -4,26 +4,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Second222"
-    android:orientation="vertical">
+    android:background="@color/DeepSkyBlue"
+    android:orientation="vertical"
+    tools:context=".Second222">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Dont_touch"
         android:layout_margin="110dp"
-        android:textSize="20dp"/>
+        android:text="@string/Dont_touch"
+        android:textColor="@color/YellowGreen"
+        android:textSize="20sp" />
+
     <TextView
+        android:id="@+id/vopros1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/text_salam"/>
+        android:text="@string/name" />
 
     <EditText
+        android:id="@+id/Edit11"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/edit"/>
+        android:hint="@string/edit"
+        android:textSize="14sp" />
 
+    <TextView
+        android:id="@+id/vopros2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_salam" />
+
+    <EditText
+        android:id="@+id/Edit10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/years"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/vopros3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rost" />
+
+    <EditText
+        android:id="@+id/Edit12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fucking_rost"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/vopros4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sex" />
+
+    <EditText
+        android:id="@+id/Edit13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/oymay"
+        android:textSize="14sp" />
 
 
 </LinearLayout>

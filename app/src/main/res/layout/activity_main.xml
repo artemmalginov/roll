@@ -1,32 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".MainActivity"
-    android:orientation="vertical"
     android:layout_gravity="center_vertical"
-    android:background="@color/yellow">
+    android:background="@color/yellow"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Проверка на ориентацию"
-        android:textColor="@color/black"
         android:layout_gravity="center_horizontal"
-        android:textSize="30dp"/>
+        android:text="@string/proverka"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/roll_label"
-        android:layout_gravity="center_horizontal"/>
-
+        android:layout_gravity="center_horizontal"
+        android:text="@string/roll_label" />
 
 
 </LinearLayout>

@@ -1,7 +1,18 @@
 <resources>
     <string name="app_name">DiceRoller</string>
-    <string name="roll_label">ЖМЯК</string>
-    <string name="Dont_touch">СЮДА НЕ НАЖИМАТЬ</string>
+    <string name="roll_label">Если ты готов, жми на кнопку</string>
+    <string name="Dont_touch">Ответь на тест и нажми на кнопку</string>
     <string name="text_salam">Сколько тебе лет?</string>
-    <string name="edit">Отвечай</string>
+    <string name="edit">обязательно напиши сюда своё настоящее имя</string>
+    <string name="proverka">Тест на ориентацию</string>
+    <string name="ti">ТЫ ПИДОР</string>
+    <string name="name">Как тебя зовут?</string>
+    <string name="years">полные года твоей жизни</string>
+    <string name="rost">Какой у тебя рост?</string>
+    <string name="fucking_rost">точно до милимметра</string>
+    <string name="sex">Кем ты видишь себя через 10 лет</string>
+    <string name="oymay">вот тут хорошо подумай, это важно</string>
+    <string name="antoxa">Антоха респект</string>
+
+
 </resources>
